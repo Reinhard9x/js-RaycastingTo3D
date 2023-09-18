@@ -279,7 +279,6 @@ for(let i = 0; i < distances.length; i++){
     let col = 255 - correctdist/2
     let n = cnvmeasures/raynum
     let colheight = 1/correctdist * 500
-    console.log(colheight)
     start[1] = (cnvmeasures/2 + colheight*10) 
     end[1] = (cnvmeasures/2 - colheight*10) 
     //the width of each column
