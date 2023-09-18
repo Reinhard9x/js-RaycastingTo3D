@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaycastingTo3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="mycanvas"></canvas>
+
+    <canvas id="mycanvas3d"></canvas><br>
+
+    <label>Reset walls: </label>
+    <button id="mybutton">Reset</button><br><br>
+
+    <label for="angle">Field of view angle: </label> 
+    <input id="angle" type="number" min=0 max=360>
+    <button id="appangle">apply</button><br><br>
+
+    <label for="angle">Number of rays: </label>
+    <input id="raynum" type="number" min=1 max=500>
+    <button id="appraynum">apply</button>
+    <br><br> 
+
+    <label>Use 'wasd' to move around.</label><br><br>  
+    <label>Use ArrowRight or ArrowLeft to move the field of view.</label><br> 
+     
+    <script src="index.js"></script>
+</body>
+</html>
